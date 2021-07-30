@@ -16,5 +16,5 @@ img = cv2.resize(img, (0,0), fx=4, fy=4) # (pixel, pixel) or (0,0) fx=float, fy=
 img = cv2.rotate(img, cv2.ROTATE_180) # bunch of rotate options
 
 cv2.imshow("Image", img) # shows the image, alt you could use matplotlibs plt.show      
-cv2.waitKey(0)  # 0 would be infinity or a number is seconds
+cv2.waitKey(0)  # 0 would be infinity or a number is milliseconds
 cv2.destroyAllWindows() # closes all the windows
