@@ -7,7 +7,7 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture(0)   # number is the camera you want to access
+cap = cv2.VideoCapture(1)   # number is the camera you want to access
 
 while True:
     ret, frame = cap.read() # ret tells us if the capture worked, frame in a np.array of an image

@@ -12,13 +12,13 @@ Relevant Documentation: https://opencv-python-tutroals.readth...
 import cv2
 import numpy as np
 
-img = cv2.imread("OpenCV/figures/fancySquares.jpg")
+img = cv2.imread("figures/fancySquares.jpg")
 img = cv2.resize(img, (0,0), fx=1.5, fy=1.5)
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 num_corners = 25
-quality = 0.05 # between 0 and 1, its the confidence of the quality
-min_dist = 10 # absolute distance between two corners, this way you dont get a bunch of corers on one round corner
+quality = 0.005 # between 0 and 1, its the confidence of the quality
+min_dist = 1 # absolute distance between two corners, this way you dont get a bunch of corers on one round corner
 
 corners = cv2.goodFeaturesToTrack(img_gray, num_corners, quality, min_dist) # corners are float point values
 corners = np.int0(corners) # this will take the np.array that is corners and make all the vals ints

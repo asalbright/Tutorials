@@ -25,7 +25,7 @@ def main():
     y2 = 100
     while(True):
 
-        img = cv2.imread("OpenCV/figures/i_spy.jpg")
+        img = cv2.imread("figures/fancySquares.jpg")
         img = cv2.rectangle(img, (x1, y1), (x2, y2), (0, 0, 256), 1)
         cv2.imshow("image", img)
 
