@@ -1,0 +1,49 @@
+{
+  "package_name": "turtlesim",
+  "output_dir": "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_typesupport_fastrtps_c/turtlesim",
+  "template_dir": "/home/asalbright/ros2_galactic/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/home/asalbright/ros2_galactic/install/action_msgs/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/home/asalbright/ros2_galactic/install/action_msgs/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/home/asalbright/ros2_galactic/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/home/asalbright/ros2_galactic/install/action_msgs/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/home/asalbright/ros2_galactic/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/asalbright/ros2_galactic/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/home/asalbright/ros2_galactic/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/home/asalbright/ros2_galactic/install/rosidl_typesupport_fastrtps_c/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/home/asalbright/ros2_galactic/install/rosidl_typesupport_fastrtps_c/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/home/asalbright/ros2_galactic/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/home/asalbright/ros2_galactic/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/home/asalbright/ros2_galactic/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/home/asalbright/ros2_galactic/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/home/asalbright/ros2_galactic/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/home/asalbright/ros2_galactic/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/action/RotateAbsolute.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Color.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/msg/Pose.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/Kill.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/SetPen.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/Spawn.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportAbsolute.idl",
+    "/home/asalbright/Documents/GitHub/Tutorials/ROS2/dev_ws/build/turtlesim/rosidl_adapter/turtlesim/srv/TeleportRelative.idl",
+    "/home/asalbright/ros2_galactic/install/action_msgs/share/action_msgs/msg/GoalInfo.idl",
+    "/home/asalbright/ros2_galactic/install/action_msgs/share/action_msgs/msg/GoalStatus.idl",
+    "/home/asalbright/ros2_galactic/install/action_msgs/share/action_msgs/msg/GoalStatusArray.idl",
+    "/home/asalbright/ros2_galactic/install/action_msgs/share/action_msgs/srv/CancelGoal.idl",
+    "/home/asalbright/ros2_galactic/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/home/asalbright/ros2_galactic/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl",
+    "/home/asalbright/ros2_galactic/install/unique_identifier_msgs/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}
